@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Main Layout */
+.main-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 50px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #005bb5;
+}
+
+/* Carousel Section */
+.carousel {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel-container button {
+    background-color: #0070f3;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.carousel-slide {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.carousel-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.carousel-info h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.carousel-info p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Genres Section */
+.genres {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.genre-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.genre-item {
+    margin: 5px 10px;
+}
+
+.genre-item a {
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: bold;
+}
+
+.genre-item a:hover {
+    text-decoration: underline;
+}
+
+/* Upcoming Section */
+.upcoming {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #777;
+}
